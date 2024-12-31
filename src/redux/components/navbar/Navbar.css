@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.navbar h1{
+    color:teal;
+    
+    text-transform: uppercase;
+
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.navbar ul{
+    list-style: none;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.cart{
+    font-size: 20px;
+    position: relative;
+    
+}
+
+.cart-span{
+    position: absolute;
+    color: red;
+    /* height: 5px;
+    width: 5px; */
+    top: -12px;
+    right: -16px;
+}
