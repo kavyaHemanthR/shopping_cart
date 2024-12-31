@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div>
         <Link to={"/"} className="link">
-          <h1>React Redux Shopping Cart</h1>
+          <h1>React Redux Shopping Cart (GIT)</h1>
         </Link>
       </div>
       <ul className="nav-right">
